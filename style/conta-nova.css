@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans&family=Poppins&display=swap');
+/*Fontes útilizadas no figma : IBM - Títulos das noticias; Poppins : Notícia de marte; Nunito : As outras notícias*/
+html{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(226, 225, 225);
+    font-family: 'IBM Plex Serif', serif;
+}
+main{
+    margin: 40px 0;
+}
+.cadastro{
+    display: block;
+    margin: 0 auto;
+
+    background-color: #0E1E32;
+    color: #ffff;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px rgb(0,0,0.015);
+
+    align-items: center;
+    text-align: center;
+
+    width: 350px;
+    padding: 50px;
+}
+.esqueceu{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+h5{
+    font-size: 20px;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 70%;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: white;
+    width: 80%;
+    color: #0E1E32;
+    border-radius: 10px;
+    border-color: #C31815;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #C31815;
+    color: #ffff;
+    border: white;
+    border-color: #ffff;
+}
+.conta-nova-link{
+    text-decoration: none;
+    color: white;
+}
+.conta-nova-txt{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 13px;
+}
+
+@media (max-width:455px){
+    main{
+        margin: 0;
+    }
+    .cadastro{
+        width: 100%;
+        padding: 0;
+        border-bottom: 1px solid black;
+    }
+    h1{
+        font-size: 27px;
+    }
+    h5{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:275px){
+    h5{
+        display: none;
+    }
+}
